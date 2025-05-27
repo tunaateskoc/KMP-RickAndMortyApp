@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <string name="status">Durum:</string>
+  <string name="species">Tür</string>
+  <string name="type">Tip</string>
+  <string name="gender">Cinsiyet</string>
+  <string name="origin">Menşei</string>
+  <string name="location">Konum</string>
+  <string name="created">Oluşturulma Tarihi</string>
+  <string name="characters">Karakterler</string>
+  <string name="favorites">Favoriler</string>
+  <string name="favorite_character_not_found">Favori karakter bulunamadı</string>
+</resources>

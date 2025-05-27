@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <string name="status">Status:</string>
+  <string name="species">Species</string>
+  <string name="type">Type</string>
+  <string name="gender">Gender</string>
+  <string name="origin">Origin</string>
+  <string name="location">Location</string>
+  <string name="created">Created</string>
+  <string name="characters">Characters</string>
+  <string name="favorites">Favorites</string>
+  <string name="favorite_character_not_found">Favorite character not found</string>
+</resources>
