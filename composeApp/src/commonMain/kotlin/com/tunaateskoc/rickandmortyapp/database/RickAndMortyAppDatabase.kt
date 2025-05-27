@@ -1,5 +1,6 @@
 package com.tunaateskoc.rickandmortyapp.database
 
+import androidx.room.ConstructedBy
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
@@ -10,6 +11,9 @@ import androidx.room.TypeConverters
 )
 @TypeConverters(
     Converters::class
+)
+@ConstructedBy(
+    RickAndMortyDatabaseConstructor::class
 )
 abstract class RickAndMortyAppDatabase : RoomDatabase() {
 

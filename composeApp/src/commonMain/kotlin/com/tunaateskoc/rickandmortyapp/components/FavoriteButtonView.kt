@@ -27,7 +27,7 @@ fun FavoriteButtonView(
         modifier = modifier
             .clickable { onButtonClicked() },
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface,
+            containerColor = MaterialTheme.colorScheme.surfaceContainer,
             contentColor = MaterialTheme.colorScheme.primary
         )
     ) {
