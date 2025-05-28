@@ -53,22 +53,28 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
 
+            //viewmodel
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
             implementation(libs.kotlinx.collections.immutable)
 
-            implementation(libs.androidx.lifecycle.viewmodel)
-            implementation(libs.androidx.lifecycle.runtime.compose)
+            //navigation
             implementation(libs.jetbrains.compose.navigation)
             implementation(libs.kotlinx.serialization.json)
+
+            //koin
             implementation(libs.koin.compose)
             implementation(libs.koin.compose.viewmodel)
             api(libs.koin.core)
 
+            //ktor
             implementation(libs.bundles.ktor)
+
+            //coil
             implementation(libs.bundles.coil)
 
-            implementation(libs.androidx.room.runtime)
+            //room
+            implementation(libs.room.runtime)
             implementation(libs.sqlite.bundled)
         }
         nativeMain.dependencies {
@@ -78,7 +84,7 @@ kotlin {
             implementation(libs.kotlin.test)
         }
         dependencies {
-            ksp(libs.androidx.room.compiler)
+            ksp(libs.room.compiler)
         }
     }
 }
